@@ -1,0 +1,31 @@
+/* Body Style */
+body
+{
+	font-family: arial;
+	background: rgba(0,0,0,0.8);
+	display: flex;
+	justify-content: center;
+}
+/* Container */
+.container
+{
+	padding: 10px 0;
+}
+
+/* Clock Style */
+#clock
+{
+	text-align: center;
+	font-size: 60px;
+	color: #fff;
+	background-color: #2a2a72;
+background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+	border: 4px solid #36096d;
+	width: 350px;
+	padding: 20px 0;
+	margin: 100px 0;
+	border-radius: 30px;
+	user-select: none;
+	-webkit-box-reflect: below 10px linear-gradient(transparent,rgba(255,255,255,0.1));
+	box-shadow: 0px 10px 10px rgba(0,0,110,.1),inset 0px 10px 10px rgba(0,0,110,.1);
+}
